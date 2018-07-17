@@ -1,6 +1,5 @@
-import "./utils.js"
-import isSenior, { isAdult, canDrink } from "./person.js";
+import React from "react";
+import ReactDOM from "react-dom";
 
-console.log(isAdult(18));
-console.log(canDrink(18));
-console.log(isSenior(65));
+const template = <p>test</p>;
+ReactDOM.render(template, document.getElementById("app"))
